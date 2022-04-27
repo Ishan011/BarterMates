@@ -71,11 +71,15 @@ const ProductDetails = (props) => {
               <div className="card my-2 p-3">
                 <p className="h5">Product description</p>
                 <p>{productDetails.description}</p>
+              </div>
+
+              <div className="card my-2 p-3">
+                <p className="h5">Swap Preference </p>
+                <p>{productDetails.description}</p>
                 {
                   productDetails.type == "swap"?<p>{productDetails.swap}</p> :null
                 }
               </div>
-              
 
             </>
           ) : (

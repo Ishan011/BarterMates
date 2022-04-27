@@ -1,0 +1,8 @@
+step1) Please make sure to install npm first
+npm install
+
+step2) Type down following
+npm start
+
+step3) Connect with the server
+node server.js
