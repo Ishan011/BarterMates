@@ -2,8 +2,9 @@
 
 
 ## How to run this project
+
+Type the following
 <ul>
-  <li>Type the following</li>
   <li>Step 1: npm install</li>
   <li>Step 2: npm start (to start the server) </li>
   <li> Step 3: node server.js (make connection to database) </li>
