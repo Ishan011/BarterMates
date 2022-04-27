@@ -1,0 +1,55 @@
+/* Profile stylesheet */
+.userDetail {
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.profileImage {
+    width: 120px;
+    height: 120px;
+    background-color: #eee;
+    margin: 12px auto;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+}
+
+.type-label {
+    position: absolute;
+    right: 0%;
+    padding: 4px 16px;
+    text-transform: capitalize;
+    color: #eee;
+    background-color: #888;
+    border-radius: 8px 0 0 8px;
+}
+.bio-btn, .signout, .chat-btn {
+    text-align: center;
+    margin: 12px auto;
+    background-color: #333;
+    color: #eee;
+    border: 1px solid #333;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+    width: 100%;
+}
+
+.bio-btn:hover {
+    background-color: #212121;
+}
+
+.chat-btn:hover {
+    background-color: #212121;
+    color: #eee;
+}
+
+@media screen and (max-width:500px) {
+    .bio-block {
+        margin: 16px 2px;
+    }
+}

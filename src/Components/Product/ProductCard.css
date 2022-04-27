@@ -1,0 +1,81 @@
+/* Inventory listing card stylied */
+.card {
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 12px 0;
+}
+
+.cardLink {
+    text-decoration: none;
+    color:  #333;
+}
+
+.cardLink:hover {
+    text-decoration: none;
+    color:  #333;
+}
+
+.card-img-top {
+    width: 18rem;
+    max-height: 300px;
+}
+
+.detailLocation {
+    font-size: 1rem;
+    color: #888;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-wishlist, .card-type {
+    color: #eee;
+    top: 4%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.72);
+}
+
+.card-type {
+    border-radius: 0 8px 8px 0;
+    padding: 2px 8px;
+    text-align: center;
+    border: 1px solid #888;
+}
+
+.cardLocation {
+    text-transform: capitalize;
+    color: #888;
+}
+
+.card-wishlist {
+    right: 2%;
+    padding: 6px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #ccc;
+}
+
+.productOwner {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.cardCarouselImg {
+    background-color: #eee;
+    border: 2px solid #ddd;
+    border-radius: 5px 5px 0 0;
+}
+
+.reviewText {
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    color: #888;
+    font-size: 1rem;
+}
+
+.cardCarouselImg:focus {
+    border: 2px solid #aaa;
+}

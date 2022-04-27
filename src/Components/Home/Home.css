@@ -1,0 +1,21 @@
+/* Homepage css */
+.bannerSize {
+    width: 100%;
+}
+
+.step {
+    text-align: center;
+    padding: 1.25rem;
+    min-height: 320px;
+}
+
+.step-img {
+    margin: 1rem auto;
+}
+
+@media screen and (max-width:500px) {
+    .step {
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+}

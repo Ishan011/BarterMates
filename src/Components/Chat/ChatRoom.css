@@ -1,0 +1,40 @@
+.chatBlock {
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+.chatProfileLink {
+    text-decoration: none;
+    color: #555;
+}
+
+.chatProfileLink:hover {
+    color: #555;
+}
+
+.chatProfileImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.chatProfile {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin: 0.75rem 0;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #eee;
+}
+
+.chatProfile .chatProfileImg {
+    margin-right: 0.5rem;
+}
+
+.chatProfile:hover {
+    box-shadow: 0px 4px 4px 0px #00000014;
+}

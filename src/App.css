@@ -1,0 +1,10 @@
+.sidebar-container{
+  background-color: #274472;
+  height: 100vh;
+  position: fixed;
+}
+
+.main-menu{
+  position: absolute;
+  left: 200px;
+}
