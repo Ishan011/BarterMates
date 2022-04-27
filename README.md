@@ -23,17 +23,9 @@ Type the following and install it in your local machine
   </ol>
   
 ### Dependencies
-ReactJS
-Mongoose
-NodeJS
-Express
-Bootstrap
-Reactstrap
-react-router-dom
-Firebase
-cookie-parser
-Axios
-
+| ReactJS | Mongoos | NodeJS |
+|  Express | Reactstrap |  Bootstrap |
+|  Firebase | react-router-dom |  Axios |
 
 ## References
 This prototype was not possible without help of the below mentioned references:
