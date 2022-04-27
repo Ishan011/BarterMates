@@ -1,6 +1,7 @@
 // Sending inventory request and handling responses
 const axios = require('axios')
 
+// add product 
 const  addProductToInventory= async(data)=>{
     try{
         const response = await axios.post("/api/inventory/add-product",data);
@@ -11,6 +12,7 @@ const  addProductToInventory= async(data)=>{
     }
 }
 
+// retrieve product list 
 const  getProductsList= async(filter)=>{
     try{
         const response = await axios.post("/api/inventory/get-products",filter);

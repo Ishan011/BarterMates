@@ -1,11 +1,14 @@
+// App.js - master file
 import React, { useContext } from "react";
 import "./App.css";
+// importing Router 
 import {
     BrowserRouter as Router,
     Switch,
     Route,
 } from "react-router-dom";
 
+// importing all subcomponents  
 import Home from "./Components/Home/Home";
 import Profile from "./Components/Profile";
 import { AuthContext } from "./Context/AuthContext";
@@ -21,6 +24,7 @@ import UserProfile from "./Components/Profile/UserProfile";
 import ProductDetails from "./Components/Product/ProductDetail";
 import ChatroomList from "./Components/Chat/ChatRoomList";
 
+// Using props to bring in the data 
 function App(props) {
     const { isAuthenticated, user, modalState, setModalState} = useContext(AuthContext);
 

@@ -1,16 +1,22 @@
 // Creating component for listing to be shown on search
 import React, { useEffect, useState } from "react";
+// importing asset
 import MobileImg from "../../assets/mobile.png";
+
+// importing stylesheet
 import "./ProductCard.css";
+// importing required services
 import {
   getWishlist,
   addToWishList,
   isProductInWishlist
 } from '../../Services/user-services';
+// importing router 
 import { Link } from "react-router-dom";
 
 const ProductCard = (props) => {
 
+  // type of listings
   const typeDisplayValue = {
     sell : "Buy",
     swap: "Swap",
@@ -41,6 +47,7 @@ const ProductCard = (props) => {
       }
   }
 
+  // Rendering JSX
   return (
 
     <div className="col-md-4">

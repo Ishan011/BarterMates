@@ -1,3 +1,4 @@
+// Globally set components whose data can be retrieved from anywhere
 
 import React,{createContext, useState, useEffect} from 'react'
 import {

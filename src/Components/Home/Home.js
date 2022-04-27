@@ -13,6 +13,7 @@ const Home = (props) =>{
 
   return (        
     <div>
+      {/* Using components */}
       <Banner/>
       <HomeSteps/>
     </div>

@@ -1,7 +1,13 @@
 import { useEffect, useState } from "react";
+
+// importing required service
 import { getProductDetails } from "../../Services/inventory-service";
-import { Container, Button } from "reactstrap";
+
+// importing router 
 import { Link } from "react-router-dom";
+
+// importing reactstrap component and stylesheet 
+import { Container, Button } from "reactstrap";
 import "./ProductCard.css";
 import Rating from "./Rating";
 

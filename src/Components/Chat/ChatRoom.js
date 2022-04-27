@@ -1,15 +1,19 @@
-// Creating component for chat 
+// Creating component for ChatRoom 
 import React,{useEffect, useState} from 'react';
-
+// importing services
 import {
     getChatRoom
 } from '../../Services/chatroom-service';
+// importing firebase database
 import {db} from '../../firebase';
+
 import SendMessage from './SendMessage';
+
+// importing reactstrap component
 import { Alert } from 'reactstrap';
 
 
-
+// Using useEffect and useState hooks
 const ChatRoom = (props) =>{
 
     const [user1Id, setUser1Id] = useState("");
@@ -47,6 +51,7 @@ const ChatRoom = (props) =>{
         })()
     },[])
 
+    // rendering JSX
     return<>
         Chat
         {

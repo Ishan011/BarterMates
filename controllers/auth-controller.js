@@ -1,4 +1,9 @@
+// Reference for controllers (one of the many sources)
+// Traversy Media (2022) Learn The MERN Stack - Express & MongoDB Rest API. 
+// Available at: https://www.youtube.com/watch?v=-0exw-9YJBo.
+
 // This controller is responsible for Authentication
+
 const authHelper = require('../helpers/auth-helper'); 
 const User = require('../models/users-model');
 

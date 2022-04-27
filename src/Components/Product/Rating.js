@@ -1,3 +1,4 @@
+// Dummy Rating component 
 import React from "react";
 
 const Rating = () => {

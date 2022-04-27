@@ -11,6 +11,7 @@ const mongoose = require('mongoose')
 
 const cookieParser = require('cookie-parser');
 
+// setting limit to 50mb to make it easy to upload images in listing 
 app.use(express.json({limit: '50mb'}));
 app.use(cookieParser());
 
@@ -23,14 +24,6 @@ mongoose.connect('mongodb+srv://ishan011:qwerty123@cluster0.1iebh.mongodb.net/ba
         console.log("connected with db")
     }
 });
-
-
-// mongoose.connect('mongodb://localhost:27017/bartermates',{
-//     useNewUrlParser: true
-// },()=>{
-//     console.log("connected with db")
-// });
-
 
 app.use('/api/auth', authRoutes);
 app.use('/api/inventory', inventoryRoutes);

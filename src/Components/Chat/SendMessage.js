@@ -1,10 +1,14 @@
 // Component responsible for seding messages
 import { useState } from "react";
+
+// importing reactstrap components
 import {
     Input,
     Form,
     Button
 } from "reactstrap";
+
+// importing firebase database
 import {db, auth} from '../../firebase';
 import firebase from "firebase/compat";
 

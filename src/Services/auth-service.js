@@ -11,6 +11,7 @@ const googleLogin = async(data)=>{
     }
 }
 
+// check authentication status 
 const isAuthenticatedCheck = async()=>{
     try{
         const response = await axios.get("/api/auth/is-authenticated")

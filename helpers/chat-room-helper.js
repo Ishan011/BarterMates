@@ -1,4 +1,5 @@
 // Retrieving chat room for a user
+
 const ChatRoomModel = require('../models/chat-room-model');
 
 const getChatRoom = async(user1, user2)=>{

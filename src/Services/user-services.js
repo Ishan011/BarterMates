@@ -1,6 +1,7 @@
 // Sending the user details request and handling responses
 const axios = require('axios')
 
+// get user details 
 const  getUserDetails= async()=>{
     try{
         const response = await axios.post("/api/user/user-details",{});
@@ -11,6 +12,7 @@ const  getUserDetails= async()=>{
     }
 }
 
+// update bio 
 const updateBio = async (bio)=>{
     try{
         const response = await axios.post("/api/user/update-bio",{bio});
@@ -21,6 +23,7 @@ const updateBio = async (bio)=>{
     }
 }
 
+// add to wishlist 
 const addToWishList = async(productId) =>{
     try{
         const response = await axios.post("/api/user/add-to-wishlist",{
@@ -33,6 +36,7 @@ const addToWishList = async(productId) =>{
     }
 }
 
+// retrieve wishlist 
 const getWishlist = async() =>{
     try{
         const response = await axios.post("/api/user/get-wishlist",{})

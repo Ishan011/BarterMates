@@ -1,3 +1,7 @@
+// Reference  
+// Traversy Media (2022) Learn The MERN Stack - JWT Authentication. 
+// Available at: https://www.youtube.com/watch?v=enopDSs3DRw 
+
 // Responsible for creation of tokens 
 const {
     OAuth2Client

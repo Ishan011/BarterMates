@@ -1,5 +1,4 @@
-// User data model 
-// create schema for chatrooms
+// Create schema for chatrooms
 
 // Tutorial followed to learn mongoose 
 // https://www.youtube.com/watch?v=DZBGEVgL2eE&ab_channel=WebDevSimplified

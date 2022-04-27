@@ -1,10 +1,14 @@
 // Component for showing inventory listings in list  
 import React, { useState, useEffect} from "react";
+// importing reactstrap component 
 import { Container } from "reactstrap";
+// importing required service
 import {
     getProductsList
 } from '../../Services/inventory-service';
+// importing component 
 import ProductCard from "./ProductCard";
+// importing asset
 import notFound from "../../assets/noResult.svg";
 
 const ProductsList = (props) =>{
@@ -24,6 +28,8 @@ const ProductsList = (props) =>{
                 }
         })()
     },[props.filter])
+    
+    // Rendering JSX
     return <>     
         <Container>
             <div className="row">

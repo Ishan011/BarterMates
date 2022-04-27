@@ -1,10 +1,15 @@
 // Component to show list of open rooms for any given user
 import { getChatRoomList } from "../../Services/user-services";
 import { useState, useEffect } from "react";
+
+// importing Router
 import { Link } from "react-router-dom";
+
+// importing reactstrap component and stylesheet
 import { Container } from "reactstrap";
 import "./ChatRoom.css";
 
+// Using useEffect and useState hooks
 const ChatroomList = (props) => {
   const [roomList, setRoomList] = useState([]);
 
@@ -18,6 +23,7 @@ const ChatroomList = (props) => {
     })();
   },[]);
 
+  // rendering JSX
   return (
     <Container>
       <div className="chatBlock card shadow-sm">
