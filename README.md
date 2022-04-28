@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# BarterMates
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to run this project
 
-In the project directory, you can run:
+Type the following and install it in your local machine
+<ul>
+  <li>Step 1: `npm install` </li>
+  <li>Step 2: `npm start` (to start the server) </li>
+  <li> Step 3: `node server.js` (make connection to database) </li>
+  </ul>
+  
+  ## Features
+<ol>
+  <li>Authentication of user</li>
+  <li>Search using keyword or category in navigation bar</li>
+  <li>Filter using three distinct selections: Type, category and location</li>
+  <li>Chat functionality</li>
+  <li>Ability to wishlist item</li>
+  <li>Updating User bio</li>
+  <li>Product detail page</li>
+  <li>Adding product up for sell or exchange</li>
+  </ol>
+  
+### Dependencies
+| ReactJS | Mongoos | NodeJS |
+|  Express | Reactstrap |  Bootstrap |
+|  Firebase | react-router-dom |  Axios |
 
-### `npm start`
+## References
+This prototype was not possible without help of the below mentioned references:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Schwarzmüller, A.by M. &amp; Schwarzmüller, M., 2022. REACT 16: The complete course (incl.. react router 4 &amp; redux). Udemy. Available at: https://www.udemy.com/course/react-the-complete-guide-incl-redux/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Built a chat app in 7 minutes with React & Firebase - YouTube (no date). Available at: https://www.youtube.com/watch?v=zQyrwxMPm88&ab_channel=Fireship
 
-### `npm test`
+Figma - Free 75+ illustrations - Surface Pack (Community) | Illustrations (no date) Figma. Available at: https://www.figma.com/community/file/1075690399778279660
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Traversy Media (2022) Learn The MERN Stack - JWT Authentication.  Available at: https://www.youtube.com/watch?v=enopDSs3DRw
 
-### `npm run build`
+Web Dev Simplified (2021) Mongoose Crash Course - Beginner Through Advanced. Available at: https://www.youtube.com/watch?v=DZBGEVgL2eE
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Traversy Media (2022) Learn The MERN Stack - Express & MongoDB Rest API. Available at: https://www.youtube.com/watch?v=-0exw-9YJBo 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bootstrap v5.0. Available at: https://getbootstrap.com/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create React App (no date). Available at: https://create-react-app.dev/
 
-### `npm run eject`
+freeCodeCamp.org (2021) React Router Crash Course. Available at: https://www.youtube.com/watch?v=Jppuj6M1sJ4
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+An Easy Way to Get Started with the MERN Stack (no date). Available at: https://alligator.io/react/mern-stack-intro/
