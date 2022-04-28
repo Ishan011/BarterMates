@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 // importing required service
 import { getProductDetails } from "../../Services/inventory-service";
 
-// importing router 
+// importing router
 import { Link } from "react-router-dom";
 
-// importing reactstrap component and stylesheet 
+// importing reactstrap component and stylesheet
 import { Container, Button } from "reactstrap";
 import "./ProductCard.css";
 import Rating from "./Rating";
@@ -73,14 +73,12 @@ const ProductDetails = (props) => {
                 <p>{productDetails.description}</p>
               </div>
 
-              <div className="card my-2 p-3">
-                <p className="h5">Swap Preference </p>
-                <p>{productDetails.description}</p>
-                {
-                  productDetails.type == "swap"?<p>{productDetails.swap}</p> :null
-                }
-              </div>
-
+              {productDetails.type == "swap" ? (
+                <div className="card my-2 p-3">
+                  <p className="h5">Swap Preference</p>
+                  <p>{productDetails.swap}</p>
+                </div>
+              ) : null}
             </>
           ) : (
             ""
@@ -93,11 +91,9 @@ const ProductDetails = (props) => {
                 <h3>{productDetails.title}</h3>
                 <p className="type-label">{productDetails.type}</p>
 
-                {
-                  productDetails.type == "sell"?<p className="h3">{productDetails.price}</p> :null
-                }
-
-
+                {productDetails.type == "sell" ? (
+                  <p className="h3">€{productDetails.price}</p>
+                ) : null}
 
                 <p className="detailLocation">{productDetails.location}</p>
                 <div className="profileImage"></div>
